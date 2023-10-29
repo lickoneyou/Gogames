@@ -42,7 +42,7 @@
   line-height: 0px;
 }
 
-ul > li {
+.plan ul > li {
   color: #826f8c;
   font-size: 18px;
   line-height: 25px;
@@ -51,15 +51,15 @@ ul > li {
   margin-bottom: 25px;
 }
 
-ul {
+.plan ul {
   padding-left: 4px;
 }
 
-ul > li:last-child {
+.plan ul > li:last-child {
   margin-bottom: 0;
 }
 
-ul > li::before {
+.plan ul > li::before {
   content: "";
   display: block;
   background-image: url(../../../../assets/check.png);
