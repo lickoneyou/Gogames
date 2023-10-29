@@ -1,0 +1,84 @@
+.aboutXboxPC {
+  position: relative;
+  padding: 30px 118px 92px 141px;
+  background-image: url("../../../assets/layers/aboutxboxpcbg.png");
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  padding-top: 86px;
+}
+
+.description > h4 {
+  color: #446381;
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.description > h1 {
+  color: #eb8382;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 75px;
+  width: 529px;
+  letter-spacing: -5px;
+  margin-bottom: 17px;
+}
+
+.description > p {
+  color: #826f8c;
+  font-size: 18px;
+  line-height: 29px;
+  width: 518px;
+  margin-bottom: 28px;
+}
+
+.btn {
+  padding: 13px 36px 13px 35px;
+}
+
+.controllerWrapper {
+  position: relative;
+}
+
+.wheelB {
+  position: absolute;
+  right: 102px;
+  top: 42px;
+  animation: 3s linear 0s normal none infinite running rot;
+}
+
+.wheelS {
+  position: absolute;
+  right: 219px;
+  top: 128px;
+  animation: 3s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dots {
+  position: absolute;
+  right: 41px;
+  top: 326px;
+  width: 184.991px;
+  height: 164.271px;
+}
+
+.arrows {
+  position: absolute;
+  width: 32.759px;
+  height: 19px;
+  transform: rotate(180deg);
+  top: 455px;
+  left: 565px;
+}
