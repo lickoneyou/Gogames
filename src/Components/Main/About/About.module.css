@@ -1,0 +1,88 @@
+.about {
+  position: relative;
+  padding: 89px 134px 92px 84px;
+  background-image: url("../../../assets/layers/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.man {
+  padding-top: 16px;
+}
+
+.screen {
+  position: absolute;
+  left: 317px;
+  animation: 2s linear 0s normal none infinite running screenMove;
+}
+
+@keyframes screenMove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-45px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.description {
+  width: 590px;
+  padding-top: 79px;
+  z-index: 1;
+}
+
+.description > h4 {
+  color: #446381;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.description > h1 {
+  color: #eb8382;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -5px;
+  margin-bottom: 19px;
+}
+
+.description > p {
+  color: #826f8c;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  max-width: 518px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 13px 36px 13px 36px;
+}
+
+.vrBg {
+  position: absolute;
+  bottom: 0;
+  left: 725px;
+}
+
+.arrows {
+  position: absolute;
+  transform: rotate(180deg);
+  width: 32.759px;
+  height: 18.931px;
+  top: 517px;
+  left: 990px;
+}
+
+.kerfin {
+  position: absolute;
+  right: 0;
+  top: -205px;
+}
