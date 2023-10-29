@@ -7,15 +7,17 @@ const Header = () => {
   return (
     <header>
       <img src={logo} alt="logo" />
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Prices</li>
-          <li>Rules</li>
-        </ul>
-      </nav>
-      <Btn />
+      <div className={style.navWrapper}>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Prices</li>
+            <li>Rules</li>
+          </ul>
+        </nav>
+        <Btn className={style.btn} />
+      </div>
     </header>
   );
 };
