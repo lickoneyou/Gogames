@@ -12,3 +12,33 @@ html {
   margin: 0 auto;
   background: #ffe6d7;
 }
+
+#active {
+  background: url(./assets/layers/Union.png),
+    linear-gradient(180deg, #446381 0, #826f8c 100%);
+  background-position: left bottom, center;
+  background-size: 50%, cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  height: 604px;
+  position: relative;
+}
+
+#active::before {
+  content: "";
+  display: block;
+  background-image: url("./assets/layers/badge.png");
+  width: 45.193px;
+  height: 45.193px;
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+
+#active > h2 {
+  color: white;
+}
+
+#active li {
+  color: white;
+}

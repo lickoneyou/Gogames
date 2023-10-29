@@ -17,10 +17,11 @@
   line-height: 75px;
   text-align: center;
   letter-spacing: -5px;
-  margin-bottom: 72px;
+  margin-bottom: 52px;
 }
 
 .planWrapper {
   display: flex;
+  justify-content: space-between;
   padding-left: 5px;
 }
