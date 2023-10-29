@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap");
 
+@font-face {
+  font-family: "Qanelas Soft";
+  src: url("./assets/fonts/Qanelas-Bold.woff2") format("truetype");
+}
+
 html {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   max-width: 1440px;
   margin: 0 auto;
+  background: #ffe6d7;
 }

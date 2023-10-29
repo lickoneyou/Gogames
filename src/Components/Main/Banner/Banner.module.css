@@ -1,0 +1,167 @@
+.banner {
+  padding: 54px 134px 0 135px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 745px;
+}
+
+.layerBg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  user-select: none;
+  z-index: -1;
+}
+
+.bannerDescr {
+  padding-top: 83px;
+}
+
+.subTitleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #446381;
+  font-size: 23px;
+  line-height: 24px;
+  max-width: 345px;
+  margin-bottom: 25px;
+}
+
+.subTitleWrapper > img {
+  width: 50px;
+  height: 29px;
+}
+
+.bannerDescr > h1 {
+  margin-bottom: 20px;
+}
+
+.titleTry {
+  color: #eb8382;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -5px;
+}
+
+.titleTrySave {
+  color: #446381;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -2px;
+  margin-right: 6px;
+}
+
+.titleCost {
+  color: #446381;
+  font-family: Qanelas Soft;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.description {
+  color: #826f8c;
+  font-size: 18px;
+  line-height: 29px;
+  max-width: 518px;
+  margin-bottom: 35px;
+}
+
+.btn {
+  width: 207px;
+  padding-left: 13px;
+}
+
+.boyWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 622px;
+}
+
+.boy {
+  position: absolute;
+  left: 0;
+  animation: boyAnimation 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes boyAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-45px);
+  }
+}
+
+.crossWrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-719px, 280px);
+  height: 140px;
+}
+
+.cross {
+  position: relative;
+  left: -54px;
+  top: 6px;
+  animation: 3s linear 0s normal none infinite running rot;
+}
+
+.cross2Wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-360px, 639px);
+  height: 140px;
+  width: 150px;
+}
+
+.cross2 {
+  position: relative;
+  top: 6%;
+  left: 6%;
+  animation: 3s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.banner1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-98px, 134px);
+}
+
+.banner2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(426px, 656px);
+  z-index: 1;
+}
+
+.dots {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(558px, 381px);
+}
