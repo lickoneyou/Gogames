@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Main.module.css";
 import Banner from "./Banner/Banner";
 import About from "./About/About";
 import AboutXboxPC from "./AboutXboxPC/AboutXboxPC";
+import Pricing from "./Pricing/Pricing";
 
 const Main = () => {
   return (
@@ -10,6 +10,7 @@ const Main = () => {
       <Banner />
       <About />
       <AboutXboxPC />
+      <Pricing />
     </main>
   );
 };

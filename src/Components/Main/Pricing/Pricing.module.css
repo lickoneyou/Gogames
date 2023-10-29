@@ -1,0 +1,26 @@
+.pricing {
+  padding: 49px 140px 93px 136px;
+}
+
+.pricing > h4 {
+  color: #446381;
+  font-size: 23px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.pricing > h1 {
+  color: #eb8382;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -5px;
+  margin-bottom: 72px;
+}
+
+.planWrapper {
+  display: flex;
+  padding-left: 5px;
+}

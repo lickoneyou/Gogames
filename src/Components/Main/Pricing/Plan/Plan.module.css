@@ -1,0 +1,71 @@
+.plan {
+  padding: 36px 46px 47px 47px;
+  border-radius: 20px;
+  background: #fbdacf;
+  box-shadow: 0px 20px 50px 0px rgba(132, 148, 205, 0.08);
+  width: 360.182px;
+  height: 566px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plan > h2 {
+  color: #446381;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: -15px;
+}
+
+.plan > p {
+  color: #eb8382;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: -15px;
+}
+
+.dollarSym {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.perH {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+}
+
+ul > li {
+  color: #826f8c;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+ul {
+  padding-left: 4px;
+}
+
+ul > li:last-child {
+  margin-bottom: 0;
+}
+
+ul > li::before {
+  content: "";
+  display: block;
+  background-image: url(../../../../assets/check.png);
+  width: 13.316px;
+  height: 9.264px;
+  margin-right: 14px;
+}
+
+.btn{
+    padding-left: 0;
+}
