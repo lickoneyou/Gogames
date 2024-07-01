@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.60438401.css",
+    "main.js": "./static/js/main.b1b0fca0.js",
+    "static/media/s1l.png": "./static/media/s1l.e798179b53853a8040be.png",
+    "static/media/about-bg.jpg": "./static/media/about-bg.2d5b9abe1dc05f343d73.jpg",
+    "static/media/aboutxboxpcbg.png": "./static/media/aboutxboxpcbg.24a0167e858b285d6c34.png",
+    "static/media/controllerBg.svg": "./static/media/controllerBg.e8a0e9810ccbd5085406af64ed499ef3.svg",
+    "static/media/boy.png": "./static/media/boy.e9b5ed6faf5c5497f884.png",
+    "static/media/box1.png": "./static/media/box1.fc94d4f1095b468d5efa.png",
+    "static/media/Kerfin.png": "./static/media/Kerfin.696a4e71bf9778418d68.png",
+    "static/media/box2.png": "./static/media/box2.1cf2bbb9165c760ee104.png",
+    "static/media/Qanelas-Bold.woff2": "./static/media/Qanelas-Bold.380a80f202da1572ce0f.woff2",
+    "static/media/screen.png": "./static/media/screen.ce1f805f79a03a9d1885.png",
+    "static/media/game-men.svg": "./static/media/game-men.26cab6ef8d8c4b3b6e5461cea66d9a5f.svg",
+    "static/media/instagram.png": "./static/media/instagram.02fb89169427965ab47f.png",
+    "static/media/wheel-small.svg": "./static/media/wheel-small.a6cda86b12fc933cfcfb504d8dafc727.svg",
+    "static/media/wheel-big.svg": "./static/media/wheel-big.d133f6b9ed04ea6e688eb548c3e547ac.svg",
+    "static/media/hole.svg": "./static/media/hole.4159b075d9b233b9f337e1ebaed7a7a6.svg",
+    "index.html": "./index.html",
+    "main.60438401.css.map": "./static/css/main.60438401.css.map",
+    "main.b1b0fca0.js.map": "./static/js/main.b1b0fca0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60438401.css",
+    "static/js/main.b1b0fca0.js"
+  ]
+}
